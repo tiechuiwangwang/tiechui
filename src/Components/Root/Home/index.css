@@ -1,0 +1,54 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  background: #ffa800;
+  overflow: hidden;
+}
+
+.Container{
+  text-align: center;
+  margin: 180px;
+}
+
+.Logo {
+  background-size: 100% 100%;
+  text-indent: -9999em;
+  height: 229px;
+  width: 202px;
+  margin: 0 auto;
+}
+
+.Title {
+  height: 100px;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.Tiechui img {
+  position: fixed;
+  width: 128px;
+  bottom: 128px;
+  left: 128px;
+}
+
+.word {
+  position: fixed;
+  bottom: 128px;
+  left: 280px;
+  padding: 8px 20px;
+  background: #fff;
+  border-radius: 5px;
+  margin: 30px auto 0;
+}
+
+.word .arrow {
+  position: absolute;
+  top: 8px;
+  right: 56px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border: solid 8px;
+  border-color: transparent #fff transparent transparent;
+}
