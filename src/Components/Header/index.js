@@ -18,7 +18,6 @@ class Header extends Component {
         <Link className={classnames("Nav", clz, {active: url === '/'})} to="/">Home</Link>
         <Link className={classnames("Nav", clz, {active: url === '/about'})} to="/about">About</Link>
         <Link className={classnames("Nav", clz, {active: url === '/album'})} to="/album">Album</Link>
-        <Link className={classnames("Nav", clz, {active: url === '/talk'})} to="/talk">Talk to Me</Link>
       </header>
     );
   }

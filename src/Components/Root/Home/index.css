@@ -5,12 +5,12 @@
   overflow: hidden;
 }
 
-.Container{
+.Home-Container {
   text-align: center;
   margin: 180px;
 }
 
-.Logo {
+.Home-Logo {
   background-size: 100% 100%;
   text-indent: -9999em;
   height: 229px;
@@ -18,21 +18,21 @@
   margin: 0 auto;
 }
 
-.Title {
+.Home-Title {
   height: 100px;
   background-size: 100% 100%;
   margin: 0 auto;
   width: 400px;
 }
 
-.Tiechui img {
+.Home-Tiechui img {
   position: fixed;
   width: 128px;
   bottom: 128px;
   left: 128px;
 }
 
-.word {
+.Home-word {
   position: fixed;
   bottom: 128px;
   left: 280px;
@@ -42,7 +42,7 @@
   margin: 30px auto 0;
 }
 
-.word .arrow {
+.Home-word .arrow {
   position: absolute;
   top: 8px;
   right: 56px;

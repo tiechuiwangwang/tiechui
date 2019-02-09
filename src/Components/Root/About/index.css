@@ -1,0 +1,11 @@
+.About-Container {
+  width: 1200px;
+  margin: 80px auto;
+}
+
+.About-tiechui {
+  float: right;
+  background-size: 100% 100%;
+  width: 600px;
+  height: 600px;
+}

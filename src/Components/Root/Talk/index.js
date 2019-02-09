@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 
 import Header from '../../Header';
 
+import './index.css';
+
 class Talk extends Component {
   render() {
     return (
-      <div>
+      <div className="Talk">
         <Header match={this.props.match}/>
-        <div> Talk </div>
+        <div className="Talk-Container"> Talk </div>
       </div>
     );
   }

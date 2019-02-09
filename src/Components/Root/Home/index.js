@@ -20,14 +20,14 @@ class Home extends Component {
     return (
       <div className="Home">
         <Header match={this.props.match}/>
-        <div className="Container">
-          <div className="Logo" style={{backgroundImage: `url(${banner})`}}>
+        <div className="Home-Container">
+          <div className="Home-Logo" style={{backgroundImage: `url(${banner})`}}>
             TieChui
           </div>
-          <div className="Title" style={{backgroundImage: `url(${title})`}}></div>
-          <div className="Tiechui">
+          <div className="Home-Title" style={{backgroundImage: `url(${title})`}}></div>
+          <div className="Home-Tiechui">
             <img src={tiechui} />
-            <div className="word">
+            <div className="Home-word">
               <div className="arrow"></div>
               {this.state.word}
              </div>
