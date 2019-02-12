@@ -4,8 +4,14 @@
 }
 
 .About-tiechui {
-  float: right;
   background-size: 100% 100%;
-  width: 600px;
+  float: right;
   height: 600px;
+  width: 600px;
+}
+
+.About-intro {
+  float: left;
+  color: #7f8c8d;
+  width: 600px;
 }
