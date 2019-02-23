@@ -1,5 +1,30 @@
 .Album-Container {
   width: 1200px;
-  margin: 80px auto;
+  margin: 0 auto;
+  column-count: 3;
+  column-gap: 64px;
 }
 
+.Album-Photo {
+  margin-bottom: 24px;
+  break-inside: avoid;
+  width: 400px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 12px #ddd;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.Album-Photo img {
+  width: 100%;
+}
+
+.Album-Photo-intro{
+  font-size: 14px;
+  margin-top: 8px;
+}

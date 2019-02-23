@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Header from '../../Header';
 
 import './index.css';
-import tiechui from './tiechui.png';
 
 class About extends Component {
   constructor(props) {
@@ -14,6 +13,7 @@ class About extends Component {
   }
 
   render() {
+    const tiechui = 'https://static.tiechuiwang.wang/tiechuiwang.wang/album/tiechui.jpg';
     return (
       <div className="About">
         <Header match={this.props.match}/>
