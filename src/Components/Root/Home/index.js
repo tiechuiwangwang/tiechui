@@ -12,7 +12,7 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      word: '嗷',
+      word: '噗',
     }
   }
 
