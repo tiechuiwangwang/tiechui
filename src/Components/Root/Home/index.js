@@ -33,6 +33,9 @@ class Home extends Component {
              </div>
           </div>
         </div>
+        <div class="Home-copyright">
+          <a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备19011026号-1</a>
+        </div>
       </div>
     );
   }

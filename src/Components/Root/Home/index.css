@@ -52,3 +52,13 @@
   border: solid 8px;
   border-color: transparent #fff transparent transparent;
 }
+
+.Home-copyright {
+  text-align: center;
+  font-size: 14px;
+}
+
+.Home-copyright a {
+  color: #333;
+  text-decoration: none;
+}
