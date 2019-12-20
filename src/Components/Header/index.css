@@ -11,25 +11,46 @@
 }
 
 .Nav {
+  display: flex;
+
+}
+
+.NavItem {
   line-height: 50px;
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 2vw;
+  font-size: 18px;
   font-weight: bold;
   transition: 200ms linear;
 }
 
-.Nav-home:hover {
+.NavItem-home:hover {
   color: #fff;
 }
 
-.Nav-home.active {
+.NavItem-home.active {
   color: #fff;
 }
 
-.Nav-normal:hover,
-.Nav-normal.active {
+.NavItem-normal:hover,
+.NavItem-normal.active {
   color:  #ffa800;
+}
+
+@media screen and (max-width: 500px){
+  .Header-logo {
+    display: none;
+  }
+
+  .Nav {
+    justify-content: center;
+  }
+
+  .NavItem {
+    padding: 0 6vw;
+    font-size: 14px;
+  }
 }

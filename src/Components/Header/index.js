@@ -8,16 +8,18 @@ import logo from './logo.png';
 class Header extends Component {
   render() {
     const { url } = this.props.match;
-    let clz = 'Nav-normal';
+    let clz = 'NavItem-normal';
     if (url === '/') {
-      clz = 'Nav-home';
+      clz = 'NavItem-home';
     }
     return (
       <header className="Header">
         <div className="Header-logo" style={{backgroundImage: `url(${logo})`}}></div>
-        <Link className={classnames("Nav", clz, {active: url === '/'})} to="/">Home</Link>
-        <Link className={classnames("Nav", clz, {active: url === '/about'})} to="/about">About</Link>
-        <Link className={classnames("Nav", clz, {active: url === '/album'})} to="/album">Album</Link>
+        <div className="Nav">
+          <Link className={classnames("NavItem", clz, {active: url === '/'})} to="/">Home</Link>
+          <Link className={classnames("NavItem", clz, {active: url === '/about'})} to="/about">About</Link>
+          <Link className={classnames("NavItem", clz, {active: url === '/album'})} to="/album">Album</Link>
+        </div>
       </header>
     );
   }

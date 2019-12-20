@@ -15,3 +15,23 @@
   color: #7f8c8d;
   width: 500px;
 }
+
+@media screen and (max-width:500px){
+  .About-Container {
+    margin: 00px auto;
+  }
+  .About-tiechui {
+    display: block;
+    float: initial;
+    margin: 40px 0 0 0;
+    height: 100vw;
+    width: 100vw;
+  }
+
+  .About-intro {
+    float: initial;
+    width: 100vw;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}

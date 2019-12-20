@@ -7,7 +7,7 @@
 
 .Home-Container {
   text-align: center;
-  margin: 180px;
+  margin: 180px 0;
 }
 
 .Home-Logo {
@@ -56,9 +56,33 @@
 .Home-copyright {
   text-align: center;
   font-size: 14px;
+  position: fixed;
+  bottom: 4vh;
+  width: 100%;
 }
 
 .Home-copyright a {
   color: #333;
   text-decoration: none;
 }
+
+@media screen and (max-width:500px){
+  .Home-Container {
+    margin: 120px 0;
+  }
+
+  .Home-Logo {
+    height: 153px;
+    width: 134px;
+  }
+
+  .Home-Title {
+    width: 300px;
+    height: 100px;
+  }
+
+  .Home-Tiechui {
+    display: none;
+  }
+}
+

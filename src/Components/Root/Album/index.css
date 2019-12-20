@@ -24,7 +24,18 @@
   width: 100%;
 }
 
-.Album-Photo-intro{
+.Album-Photo-intro {
   font-size: 14px;
   margin-top: 8px;
+}
+
+@media screen and (max-width:500px){
+  .Album-Container {
+    width: 100vw;
+    column-count: 1;
+  }
+
+  .Album-Photo {
+    width: 100%;
+  }
 }
